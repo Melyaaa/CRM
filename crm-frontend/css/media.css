@@ -1,0 +1,50 @@
+@media (max-width: 1230px) {
+    .btn__textContent {
+        text-align: left;
+    }
+}
+
+@media (max-width: 950px) {
+    .actions__container {
+        flex-direction: column;
+    }
+
+    .body__edit {
+        margin-right: 0;
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 878px) {
+    .search__input {
+        display: none;
+    }
+
+    .main__container {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+
+    .header__container {
+        justify-content: center;
+    }
+
+    .header__logo {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 749px) {
+    .table__container {
+        max-width: 710px;
+        overflow: auto;
+    }
+
+    .main__form {
+        width: 100%;
+    }
+
+    .form__container {
+        padding: 0px 10px;
+    }
+}
